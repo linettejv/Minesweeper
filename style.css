@@ -1,0 +1,13 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: paleturquoise;
+}
+/* for the main grid , a 10 * 10 
+with 40 px square each */
+.grid div{
+    height: 40px;
+    width: 40px;
+}
