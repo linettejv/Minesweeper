@@ -1,6 +1,11 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+
 .grid {
-    height: 400px;
-    width: 400px;
+    height: 422px;
+    width: 416px;
     display: flex;
     flex-wrap: wrap;
     background-color: paleturquoise;
@@ -10,4 +15,15 @@ with 40 px square each */
 .grid div{
     height: 40px;
     width: 40px;
+}
+
+.empty{
+    border: 0.01px solid rgb(246, 241, 241);
+    /* border-radius: 1px; */
+}
+
+.bomb{
+    background-color: 	#ff8c1a;
+    border: 0.01px solid rgb(246, 241, 241);
+    border-radius: 1px;
 }
